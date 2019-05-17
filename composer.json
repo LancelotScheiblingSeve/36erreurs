@@ -7,7 +7,7 @@
       "psr-0": { 
         "ThirtySix": "src",
         "Controller": "src", 
-        "Model": "src",
+        "Model": "src"
       }
   }
 }
