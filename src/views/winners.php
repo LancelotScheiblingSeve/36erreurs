@@ -1,8 +1,6 @@
 <?php include "./inc/header.php";?>
 <h2>Les Gagnants</h2>
-
 <div class="row">
-
   <?php foreach($winners as $winner):?>
     <div class="col-sm-3" style="margin-bottom:20px">
       <h4 class="cut"><?php echo $category[$winner['category_id']]['title']?></h4>
