@@ -12,3 +12,4 @@ class ErrorController{
     return "Serveur error : ".$e->getMessage();
   }
 }
+?>
