@@ -1,5 +1,3 @@
-RewriteEngine Off
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
+RewriteEngine ON
+RewriteRule ^ index\.php [L]
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule . /index.php [L]
